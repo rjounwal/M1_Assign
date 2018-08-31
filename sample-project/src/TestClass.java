@@ -5,8 +5,9 @@ public class TestClass{
 
 	public static void main(String args[]){
 		
+		TestClass testObj = new TestClass();
 		harryCode();
-		kaneCode();
+		testObj.kaneCode();
 		
 	}
 
@@ -14,7 +15,7 @@ public class TestClass{
 		System.out.println("This is Harry Changes");
 	}
 
-	private static void kaneCode(){
-		System.out.println("This is Kane Changes");
+	private void kaneCode(){
+		System.out.println("calling through Object, This is Kane Changes");
 	}
 }
