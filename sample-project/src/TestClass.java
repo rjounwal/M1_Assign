@@ -5,13 +5,15 @@ public class TestClass{
 
 	public static void main(String args[]){
 		
-		harryCode();
+		TestClass testObj = new TestClass();
+		testObj.harryCode();
 		kaneCode();
 		
 	}
 
-	private static void harryCode(){
-		System.out.println("This is Harry Changes");
+	private String harryCode(){
+		System.out.println("This is Harry Modified Changes");
+		return "calling through object & change method as return type";
 	}
 
 	private static void kaneCode(){
