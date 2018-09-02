@@ -6,13 +6,14 @@ public class TestClass{
 	public static void main(String args[]){
 		
 		TestClass testObj = new TestClass();
-		harryCode();
+		testObj.harryCode();
 		testObj.kaneCode();
 		
 	}
 
-	private static void harryCode(){
-		System.out.println("This is Harry Changes");
+	private String harryCode(){
+		System.out.println("Again with new commit & This is Harry Modified Changes");
+		return "calling through object & change method as return type";
 	}
 
 	private void kaneCode(){
