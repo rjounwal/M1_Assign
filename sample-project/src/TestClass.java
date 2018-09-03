@@ -11,9 +11,9 @@ public class TestClass{
 		
 	}
 
-	private String harryCode(){
+	private void harryCode(){
 		System.out.println("Again with new commit & This is Harry Modified Changes");
-		return "calling through object & change method as return type";
+		System.out.println("calling through object & change method as return type");
 	}
 
 	private void kaneCode(){
