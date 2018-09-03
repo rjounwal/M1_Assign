@@ -19,5 +19,6 @@ public class TestClass{
 	private void kaneCode(){
 		System.out.println("calling through Object, This is Kane Changes");
 		System.out.println("again kane changes");
+		System.out.println("Kane Changes");
 	}
 }
